@@ -4,7 +4,7 @@ import { OPTIONS } from "../config";
 import { GeneratorLib } from ".";
 
 export const generateMockData = async (
-  source: string,
+  source: string, 
   options = OPTIONS
 ): Promise<GeneratedType[]> => {
   const interfaces = await transform(source);
